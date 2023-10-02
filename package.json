@@ -9,19 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "algoliasearch": "^4.20.0",
+    "dotenv-flow": "^4.0.0",
+    "instantsearch.js": "^4.57.0",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-instantsearch": "^7.1.0",
+    "react-instantsearch-nextjs": "^0.1.1"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest"
+    "typescript": "latest"
   }
 }
